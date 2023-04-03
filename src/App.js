@@ -1,11 +1,11 @@
-import "./App.css";
+import AboutMe from "./components/AboutMe";
+import Navbar from "./components/Navbar";
 
-function App() {
+export default function App() {
   return (
     <div>
-      <header>My portfolio site</header>
+      <Navbar />
+      <AboutMe />
     </div>
   );
 }
-
-export default App;
