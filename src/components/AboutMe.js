@@ -3,13 +3,13 @@ import "../index.css";
 
 export default function AboutMe() {
   return (
-    <div>
+    <div className='flex items-center justify-center'>
       {/* <!-- component --> */}
-      <div className='max-w-md bg-slate-100 py-4 px-8 shadow-lg rounded-lg my-20'>
+      <div className='max-w-md bg-slate-200 py-7 px-7 shadow-lg rounded-lg my-20 mx-20'>
         <div class='flex justify-center md:justify-end -mt-16'>
           <img
             class='w-20 h-20 object-cover rounded-full border-2 border-indigo-500'
-            src='https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80'
+            src='../images/CV.jpg'
           />
         </div>
         <div>
